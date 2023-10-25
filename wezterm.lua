@@ -10,7 +10,7 @@ if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
 
-config.front_end = "OpenGL"
+config.front_end = "WebGpu"
 config.font = wezterm.font("Berkeley Mono")
 config.font_size = 14.0
 config.window_padding = {
